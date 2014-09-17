@@ -11,5 +11,25 @@
             <li><a href="/Pages/presentation.html">Presentation</a></li>
             <li><a href="/Pages/kontakt.html">Kontakt</a></li>
         </ul>
+        <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+            <fieldset>
+                <legend>Saker jag egentligen inte vill veta</legend>
+                <label for="name">Ange ditt förnamn:</label>
+                <input type="text" id="name" name="name" /> 
+                <label for="radio1">Ange vilken musik du tycker bäst om:</label>
+                <input type="radio" id="radio1" name="radio1" value="rock" /> Rock
+                <input type="radio" id="radio1" name="radio1" value="pop" /> Pop
+                <input type="radio" id="radio1" name="radio1" value="blues" /> Blues
+                <input type="radio" id="radio1" name="radio1" value="jazz" /> Jazz  
+                <label for="family">Ange vem i din familj du älskar mest:</label>
+                <select  id="family" name="family">
+                    <option value="mig" selected>Mig själv</option>
+                    <option value="fru" selected>Min fru</option>
+                    <option value="barn1" selected>Mitt första barn</option>
+                    <option value="barn2" selected>Mitt andra barn</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="Skicka svar" />
+        </form>
     </body>
 </html>
